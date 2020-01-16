@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Reg.css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <script src="main.js"></script>
+</head>
+
+<body style="background-color:#4b4b4b;">
+    <div class="register">
+        <div class="register-header">
+            <h3><b>Registration Form</b></h3>
+        </div>
+        <div class="register-form">
+            <form name="reg" action="#" method="post" onsubmit="return validateForm()">
+                <h6><b>Name:</b></h6>
+                <input type="text" name="name" placeholder="Name" />
+
+                <h6><b>Address:</b></h6>
+                <input type="text" name="addr" placeholder="Address" />
+
+                <h6><b>E-mail:</b></h6>
+                <input type="text" name="email" placeholder="E-mail" />
+
+                <h6><b>Password:</b></h6>
+                <input type="password" name="pwd" placeholder="Password" />
+
+                <h6><b>Telephone:</b></h6>
+                <input type="text" name="tel" placeholder="Telephone" />
+
+                <h6><b>Select Your Course:</b></h6>
+                <select class="custom-select">
+                    <option value="cs">Computer Science</option>
+                    <option value="se">Software Engineering</option>
+                    <option value="mis">Management Information Systems</option>
+                    <option value="cse">Computer Security</option>
+                  </select>
+
+                <h6><b>Comments:</b></h6>
+                <textarea class="ta" placeholder="Enter Your Comment Here."></textarea>
+
+                <p>By creating an account you agree to our <a href="#">Terms & Privacy.</a></p>
+                <br>
+                <input type="Submit" value="Register" class="reg" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="Submit" value="Reset" class="res" />
+                <br><br>
+                <p>Already have an account? <a href="#.php" class="log-in">Sign in!</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

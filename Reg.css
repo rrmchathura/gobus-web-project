@@ -1,0 +1,155 @@
+body {
+    background-color: #494949;
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+.register {
+    margin: 0 auto;
+    max-width: 500px;
+    padding-top: 2%;
+}
+
+.register-header {
+    color: #fff;
+    text-align: center;
+    font-size: 300%;
+}
+
+.register-header h3 {
+    text-shadow: 0px 5px 10px rgb(34, 34, 34);
+}
+
+.register-form h6 {
+    text-align: left;
+    margin-left: 80px;
+    color: #fff;
+}
+
+.register-form {
+    padding-top: 15px;
+    padding-bottom: 10%;
+    margin: 5% auto;
+    text-align: center;
+    color: #fff;
+}
+
+.register ::placeholder {
+    color: #b4b4b4;
+}
+
+.register input[type="text"],
+.register input[type="password"] {
+    max-width: 500px;
+    width: 70%;
+    line-height: 2em;
+    font-family: 'Ubuntu', sans-serif;
+    margin: .8em 2em;
+    border-radius: 0px;
+    border: 2px solid #f2f2f2;
+    color: #6b6b6b;
+    outline: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-transition-duration: 0.4s ease-in-out;
+    transition-duration: 0.4s;
+}
+
+.register input[type="text"]:hover,
+.register input[type="password"]:hover {
+    background-color: #dfdfdf;
+}
+
+.register select[class="custom-select"] {
+    max-width: 500px;
+    width: 70%;
+    line-height: 1em;
+    font-family: 'Ubuntu', sans-serif;
+    margin: .8em 2em;
+    border-radius: 0px;
+    border: 2px solid #f2f2f2;
+    color: #6b6b6b;
+    outline: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-transition-duration: 0.4s ease-in-out;
+    transition-duration: 0.4s;
+}
+
+.register select[class="custom-select"]:hover {
+    background-color: #dfdfdf;
+}
+
+.register textarea[class="ta"] {
+    max-width: 500px;
+    width: 70%;
+    line-height: 3em;
+    font-family: 'Ubuntu', sans-serif;
+    margin: .8em 2em;
+    border-radius: 10px;
+    border: 2px solid #f2f2f2;
+    color: #6b6b6b;
+    outline: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-transition-duration: 0.4s ease-in-out;
+    transition-duration: 0.4s;
+}
+
+.register textarea[class="ta"]:hover {
+    background-color: #dfdfdf;
+}
+
+.register-form input[type="submit"] {
+    background-color: #e3caff;
+    border: none;
+    color: #636363;
+    height: 50px;
+    width: 150px;
+    padding: 12px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 0px;
+    font-size: 16px;
+    margin: 0px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.6s ease-in-out;
+    transition-duration: 0.6s;
+}
+
+.register-form input[class="reg"]:hover {
+    color: #ffffff;
+    background: #3323be;
+}
+
+.register-form input[class="res"]:hover {
+    color: #ffffff;
+    background: #962a2a;
+}
+
+.register {
+    color: #ffffff;
+}
+
+body a {
+    color: #ffffff;
+}
+
+.register a:hover {
+    text-decoration: underline;
+    color: #a8a8a8;
+}
